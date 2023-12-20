@@ -3,12 +3,12 @@
 This is my review notes and code implementation for data mining and machine learning.
 
 
-## As an old Chinese saying goes: 
+As an old Chinese saying goes: 
 
 ### Review the past and learn the new;
 
 
-## There is an old saying: 
+There is an old saying: 
 
 ### A good memory is worse than a bad writing.
 
