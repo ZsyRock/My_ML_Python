@@ -1,3 +1,19 @@
+Principle: Find the K categories closest to the new data, and use the category with the most samples as the category of the new data.
+For example, if a family moves into a wealthy area, they think they are rich.
+
+advantage:
+01. Simple and easy to implement: Just organize the data and you’re done.
+02. Better effect on data with irregular boundaries
+
+shortcoming:
+1 is only suitable for small data sets (because all data are needed to generate the model)
+2 Data imbalance is not effective
+3 Data must be standardized (the dimensions need to be unified, such as converting to 0-1)
+4. Not suitable for data with too many feature dimensions (because there is too little data, the distribution divided into each dimension is even less)
+
+The smaller K is, the easier it is to overfit (strongly related to the results), and the larger K is, the easier it is to be judged as underfitting.
+
+The difficulty lies in the value of K.
 原理：找到K个与新数据最近的昂本，去样本中最多的一个类别作为新数据的类别
 如富人区搬来一户人家，认为他是有钱人。
 
