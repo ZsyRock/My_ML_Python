@@ -1,3 +1,35 @@
+Preparing your data: How to process it for completeness. Clean data?
+
+1. You need to know what data is required for which project and where to obtain it. Even if the company has a data department, it is still necessary to master the skills of using the database. For example, the relational database MuSQL requires communication and negotiation with various business departments to obtain data.
+
+two. Data exploration (increasing data/enhancing data dimensionality)
+More data:
+a. Split the content into words and obtain a segmented field;
+b. Perform word statistics on the content after the division to see which word appears the most;
+C. Segment the title into words and perform word statistics
+D. You can mark the part-of-speech of words and obtain a part-of-speech data;
+E. You can look for some special words, such as the name of a celebrity or the name of an organization. The name of the location and other information; if it is numerical data, it can be expanded by calculating the mean, variance, median, standard deviation, and maximum and minimum values.
+
+Three: Data cleaning (reduce data)
+a. Missing value processing. The reasons for missing data and the impact of missing data need to be analyzed. Generally there are three methods: delete, complete, ignore
+B. Outliers. Error conditions/normal conditions. The processing methods are: incorrect data - correct/discard; correct data - process according to business needs, and retain/correct according to abnormal conditions.
+C. Deviation handling. May lead to overfitting and underfitting. So you can consider discarding more data or supplementing less data. Consider existing data to synthesize some data. Depends on the impact on the results.
+
+Data standardization.
+For example, normalize the data to 0-1, etc.
+
+Feature selection: Keep the data dimension as small as possible without reducing the effect of model training
+The more dimensions there are, the more coefficients the data will shrink and the interpretability of the model will become worse. Reduced credibility
+Too many dimensions cause slow operation, and too many dimensions may have a bad impact on the model.
+For numerical data, you can use: principal component analysis method
+
+Training set and test set:
+a. Balance, direct random selection
+b. Unbalanced: stratified sampling
+How to build training and test sets:
+a. Set aside method, directly divided into two parts without interfering with each other;
+B. Cross-validation method: First divide the data set into N, use N-1 data sets for training each time, and use the rest as the test set. Carry out N times of training with this.
+C. Bootstrapping method: When the data set is small, the data set is constructed through repeated sampling.
 准备数据：如何处理出完整。干净的数据？
 
 一. 要知道哪个项目需求要什么数据，并从哪里获取。即使公司存在数据部门，也要掌握数据库的使用技巧。如关系型数据库MuSQL，还要跟各种业务部门沟通协商以获取数据。
