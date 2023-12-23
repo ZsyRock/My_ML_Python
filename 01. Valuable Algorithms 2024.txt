@@ -1,0 +1,19 @@
+Focus on 1. Tree model; 2. Neural network
+Then I started looking for classic projects on kaggle and saved about 10 projects.
+Combine it with graphs and time series, and spend some time focusing on it.
+
+Tree Model: Emphasis
+Bayesian: Not used at the moment
+Linear Regression/Logistic Regression: Single Layer Neural Network
+Markov: There is a high probability that it will not be used
+Inheritance Algorithm: Ideas are very important and must be mastered
+
+着重1、树模型；2、神经网络
+然后开始在kaggle找经典项目，攒10来个项目
+结合图、时间序列，花点时间当作重点。
+
+树模型：着重
+贝叶斯：暂时不用
+线性回归/逻辑回归：单层神经网络
+马尔可夫：大概率用不上
+继承算法：思想很重要，必须掌握
