@@ -1,3 +1,27 @@
+Assume there are M pieces of data in total, and the plan is divided into 3 categories
+
+1. First randomly select 3 points in a data space, called center points
+2. Calculate the distance from all points to these three points. The distance here is calculated as the Euclidean distance.
+3. Use the data of each group to calculate a mean of these data, and use this mean as the center point of the next iteration.
+. .
+Repeat the above process to iterate
+When the center point changes very little, the operation can be stopped.
+
+the problem we are facing:
+1. How to face the K value (I don’t know how many K there are in actual application)
+Method: Elbow method: try the K value in a loop and calculate the loss of all data under different K values. That is, the average distance is calculated using the sum of the distances from each data point to the center point. When K is 1, the distance is maximum, and when M, it is 0. So in the process of increasing, you can see an inflection point, which is the elbow.
+This method is only applicable when the K value is not too large. If the K value is tens of thousands, the learning rate must be set larger.
+Overall, it is more time-consuming and labor-intensive
+
+advantage:
+Simple and clear. Low computational complexity
+The convergence speed is fast, and the effect is generally better after several iterations.
+
+shortcoming:
+The result is unstable
+Unable to approach sample imbalance problem
+Easily converges to local optimal solution
+Largely affected by noise
 假设数据共M条，计划分为3类
 
 1. 先随机在一个数据空间中选取3个点，称之为中心点
