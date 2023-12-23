@@ -1,3 +1,46 @@
+How to evaluate whether the model has reached the standard? Commonly used evaluation indicators:
+1. Accuracy related indicators - (for example, 800 are pigs and 200 are not, you can draw a confusion matrix), which can directly reflect the learning situation of a model on sample data. It is a standardized test.
+High positive (true positive TP)
+true negative (TN)
+False positive (FP)
+False negative (FN)
+Accuracy: (TP+TN)/(TP+FP+FN+TN)
+Precision: the probability that the result of predicting TP accounts for all P: TP/(TP+FP)
+Recall: the probability that the result of predicting TP accounts for all actual T: TP/(TP+FN)
+
+ROC and AUC: (how many probability values to choose to determine the result)
+Specify "yes" when the probability of "yes" is 0.1 or more
+The probability of "yes" is "no" if it is less than 0.1
+This results in multiple sets of confusion matrices.
+
+Then each set of confusion matrices has:
+True case rate: TP/(TP+FN)
+False positive rate: FP/(FP+TN)
+Use these two values to plot points in the coordinate system:
+y = TP/(TP+FN)
+x = FP/(FP+TN)
+The ROC curve can be obtained, and the area under the curve is the AUC value. It can reflect the stability of a model. When the ROC is close to the diagonal line, it indicates that the model is very unstable.
+
+2. Business sampling assessment
+Since errors are inevitable in the modeling process and the model is specified based on the business, sampling evaluation can mitigate this situation.
+3. Generalization ability assessment
+##The model’s ability to judge unknown tasks
+It can be judged by overfitting and underfitting.
+One is learned to death (as long as it is different from the sample, it is wrong), the other is not learned (feature learning is incomplete)
+At this time, it is necessary to reorganize the data, summarize the reasons for overfitting and underfitting, and then adjust the data and retrain.
+
+Other evaluation indicators:
+1. Model speed (overhead)
+2. Robustness: Will incorrect data cause the model to collapse?
+3. Explainability: In many scenarios (such as financial risk control), a convincing reason needs to be given
+
+
+Processing of evaluation data:
+Random sampling: Divide into training set and test machine, use the test machine to test the model, and obtain various accuracy indicators
+Then take multiple samples: N groups of test machines are sampled, and the average value of the N groups of test machines is used as the final result.
+Cross-validation: Same as the cross-validation method of 05: first divide the data set into N, use N-1 data sets for training each time, and the rest are used as test sets. Carry out N times of training with this.
+Bootstrapping method: Same as 05 bootstrapping method: when the data set is small, the data set is constructed through repeated sampling. Randomly extract samples with replacement to construct a training set, and train K models. The results are used as the accuracy obtained for this question.
+
 如何评估模型是否已经达标？常用的评估指标：
 1. 准确率相关指标-（如800只是猪，200只不是，可以画一个混淆矩阵出来）可以直接反应一个模型对于样本数据的学习情况。是一种标准化的检验。
 高阳性（true positive TP）
