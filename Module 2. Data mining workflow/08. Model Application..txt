@@ -1,3 +1,42 @@
+Goals are business needs
+## The essence of model deployment-return to business
+1. How to save the model
+2. How to optimize according to business
+3. How to launch the service
+
+1. How to save the model (standards must be formulated to prevent unnecessary losses such as forgetting and deletion)
+storage location. Definition of name. The algorithm used by the model. parameter. data. Effects etc.
+
+2. How to optimize according to business
+The goal pursued during the training phase optimization: to achieve as good an effect as possible
+The goal pursued in the application stage optimization: to adapt to the limitations of the application without reducing the effect.
+like:
+- When the time is high, you need to consider reducing the model complexity or upgrading the hardware to increase the speed.
+- When the model size is high (for example, if face recognition is integrated into the chip, the dimensionality of the model parameters needs to be reduced, etc.)
+- Offline application or online operation
+
+Large-scale parallel online deployment solution:
+1. flask web framework
+2. Gunicorn http service, running on linux server
+3. Nginx load balancing L can be used as a load balancer to prevent overload. Is a client-facing entity that distributes requirements to servers
+4. Client: trigger the recommendation algorithm by pulling down
+
+Record project managers and learn to summarize and reflect
+- Including: from demand initiation, to data preparation, to model training. Evaluate. When going online, what problems were encountered in these links, what problems were solved, and what problems were not solved. If there is still a chance, how will it be optimized?
+Help yourself grow faster by updating documents to help you refer to them during project iterations.
+
+Think more about how to fit more scenarios. Can it be made into a unified service and can it be used in more places?
+Finally, a closed business loop is achieved without redundant development.
+
+Iterate and monitor
+In order for the model to work well, a monitoring strategy and plan are needed. Monitor model status and results.
+- Result monitoring:
+For example, in the recommendation system, whether the daily proportion is close to the initial data, automatic feedback can also be provided through the app, allowing users to choose the tags they do not like;
+- Manual periodic review:
+Same as above.
+- case collection:
+1. Find out what problems exist in the current model through specific cases;
+2. The mobile phone has enough cases to be used as samples for retraining;
 目标是业务需求
 ## 模型部署本质-回归业务
 1. 模型如何保存
