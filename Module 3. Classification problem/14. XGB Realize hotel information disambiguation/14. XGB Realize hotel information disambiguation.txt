@@ -1,4 +1,13 @@
+The data attributes are different (such as Chinese and English names; whether there is an email address, etc.)
+Data forms are different
+The amount of data is large and it is unrealistic to compare all of them ()
+Risks arising from disambiguation errors (such as the mistake of booking two hotels as the same hotel)
 
+Provide an algorithm service to calculate whether two pieces of data belong to the same hotel
+The goal is set to improve operational efficiency and achieve business goals through the combination of algorithms and operational personnel.
+It is planned to process the Chinese language first
+
+So it is a classification task.
 数据属性不同（如中英文名称；有无邮箱， 等）
 数据形态不同
 数据量大，全部对比不现实（）
