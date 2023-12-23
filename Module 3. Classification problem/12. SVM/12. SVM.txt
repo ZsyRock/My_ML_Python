@@ -1,3 +1,39 @@
+Find some lines that separate red beans and mung beans
+central axis
+
+The essence of SVM is: finding the optimal solution through mathematical methods
+
+Hyperplane? :
+In two dimensions it is a straight line, in three dimensions it is a plane, and in more than three dimensions it is a hyperplane.
+
+What are support vectors?
+Suppose you find a line that can separate red beans and mung beans
+The few sample points closest to this line in red beans and mung beans are called support vectors.
+The distance from these points to this line is called the interval
+Only support vectors play a role in determining the optimal hyperplane, and other data points do not.
+##This is also the origin of the name of support vector machine
+
+How to deal with unclear boundaries?
+Soft interval: A certain number of samples are allowed to appear in this interval area, which is called soft interval.
+Otherwise, it is called a hard interval (no beans are allowed to appear in the interval)
+
+How to deal with nonlinear separability?
+Linear inseparability often occurs in data sets. For example, dry beans in a circle around a square. This cannot be divided by a line.
+The method used in SVM is:
+Map indivisible samples into high-dimensional space
+## For example, in a three-dimensional space, a plane can be used to divide these beans.
+
+In SVM, the "kernel function" is used to implement the operation of mapping to high dimensions. Common kernel functions include: linear kernel function, polynomial kernel function, Gaussian kernel function, etc.
+## Reduce the amount of calculation and memory used for calculation
+
+advantage:
+It gives the global optimal solution (unlike the decision tree, which only gives the local optimal solution). It is supported by strict mathematical theory and has strong interpretability.
+The algorithm is very robust. Because it mainly depends on the support vector, as long as the support vector does not change, changes in the sample set will have no impact on the division.
+
+shortcoming:
+The resources required for training are large (only suitable for a few thousand pieces of data)
+Can only handle two-classification problems (combination methods are required to handle multi-classification problems)
+Model prediction is that the prediction time is proportional to the number of support vectors (cannot handle big data)
 找到一些线可以分隔红豆和绿豆
 中轴线
 
