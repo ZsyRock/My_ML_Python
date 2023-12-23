@@ -1,3 +1,48 @@
+Among the known conditions, choose one condition as the root of the tree, and then see if other judgment conditions are needed.
+If additional conditions are required, continue building the branch. . .
+
+In the final tree, all leaf nodes are category information to be output.
+All non-leaf nodes are feature information
+
+When a piece of data comes in, you can know the result according to the conditions
+
+question:
+1. How to select a feature as the root node?
+2. Which feature should be selected as the node for the next decision?
+
+The decision tree algorithm uses the information gain method to measure the importance of a feature and between features.
+When the information gain is greater, it indicates that this feature is more important, and then this feature is prioritized for decision-making.
+
+Ideally, each leaf node is a pure classification
+In actual situations, greedy algorithms are used, that is, they are all local optimal solutions rather than global optimal solutions.
+
+Development of decision tree: ID3->C4.5->CART (classification and regression tree), the most widely used CART decision tree (this kind of decision tree is also used in sklearn), the model type is classification and regression, and the tree structure is Binary tree, feature selection is Gini coefficient, can handle continuous paper, missing values, and can also be pruned.
+
+advantage:
+1. Very intuitive and displayed graphically
+2. Fast speed. The tree structure helps to improve the calculation speed and the judgment is fast.
+3. Can handle discrete and continuous missing values
+
+shortcoming:
+1. Easy to overfit (problematic data is prone to poor generalization performance)
+2. Need to deal with sample imbalance (if not handled well, it will tend to have an excessive number of features)
+3. Changes in samples will lead to drastic changes in the tree structure
+
+About pruning:
+Pre-pruning: Set the threshold first. But this is not commonly used
+Post-pruning: After the decision tree is constructed, it is judged according to the set conditions whether to merge the intermediate nodes and replace them with leaf nodes.
+
+
+Random forest:
+Use bagging scheme to construct multiple decision trees, and then average the results of all trees to obtain the final result.
+
+GBDT:
+The multiple trees constructed by GBDT are connected, and each classifier is trained based on the residuals of the previous round of classifiers.
+
+XGBoost:
+- Machine learning is a powerful weapon and has achieved good results in many competitions.
+Optimized the solution process in GBDT and added many engineering optimization projects
+##In fact, XGBoost cannot be considered an algorithm.
 在已知条件中，选一个条件作为树根，然后再看是否还需要其他判断条件。
 如果需要其他条件，就继续构建分支。。。
 
