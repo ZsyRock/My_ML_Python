@@ -1,3 +1,32 @@
+When starting to do data mining
+1. Ensure a full understanding of the business and data;
+
+A. Ideological issues: What kind of person you want to be, you must first think according to that kind of person. To truly understand business scenarios and explore needs. ##The essence of data mining is a method, which requires 1. In-depth study of the business and understanding of the key points of the business; 2. Full communication with the company during the demand phase of the project, and timely adjustments when deviations are discovered; 3. When specifying OKRs It’s time to work out it together with the business side.
+
+B. Understand what can and cannot be done: 1. Understand the requirements and goals of the business; 2. Understand the points to be solved by data mining ##Technology is by no means omnipotent in business.
+
+Situations that may actually be encountered:
+1. Data is not perfect: the data may be incomplete and difficult to process; a lot of effort is required for data wrangling;
+2. Business conditions are not perfect: cross-team collaboration is a problem. Therefore, it is necessary to fully communicate with the business to improve timeliness. ##
+
+C. Can only provide maximum solutions with limited resources and conditions.
+1. Communicate in depth with the business, have a full understanding of the data I have, and clearly distinguish the difficulties and key points of the business;
+2. Establish a multi-party demand assessment mechanism to involve business experts and technical experts to evaluate the rationality of the demand and your data situation;
+3. Disassemble the requirements to maximize the project effect under the premise of data restrictions and business restrictions;
+
+For example, the novel platform evaluates contribution standards. For an author, the contribution is reflected in his content:
+a. Content with a high CTR (click-through rate) has a higher contribution, or content with a unique point of view has a higher contribution?
+b. Does content that can spark discussions have a higher contribution, or content with a deeper technical depth?
+c. Does publishing content more frequently lead to higher contribution, or does publishing content that is long enough lead to higher contribution?
+This should be communicated and an expert group should be set up to review the goals.
+
+Next, you need to know the data used well.
+collect. storage. Converting data is a very important step
+1. Is there such a data set?
+2. How many data sets are there?
+3. What kind of data is it and what are its attributes?
+(Whether these dimensions can support the completion of business requirements)
+4. Labels (such as supervised learning, each piece of data needs to be labeled with results, which is also the result of the model or algorithm to learn)
 开始做数据挖掘的时候
 一. 确保对业务及数据有充分的理解；
 
