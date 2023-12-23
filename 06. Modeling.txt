@@ -1,3 +1,41 @@
+1: Classification problem:
+##Supervised learning.
+First, there must be a batch of data that already has label results.
+If there is a lack of known information: 1. Consider using other algorithms, such as clustering algorithms; 2. Consider processing data, such as manual annotation.
+
+a. Two classification problem:
+The only questions to answer are yes or no
+B. Multi-classification problem:
+Expand the optional range of labels based on the two categories;
+C. Multi-label classification:
+A piece of data under multi-label classification can be labeled with multiple labels
+
+Common algorithms such as: KNN. Decision tree. Random forest, SVM
+They are all designed to solve classification problems.
+
+2: Clustering problem:
+##Clustering is unsupervised learning.
+There are tens of millions of users on an APP, and users must be divided into several groups.
+##Clustering is the process of dividing a data set into multiple groups. It processes known data and does not involve location data.
+Common relationships include: mutual exclusion, intersection, hierarchy, fuzzy (using probability to express relationships (0.5, 0.5, 0.7), etc.)
+a. Clustering based on partitioning, usually used for mutually exclusive groups;
+B. Density-based clustering is used to solve the problem of uneven shapes;
+C. Hierarchical clustering, suitable for data segmentation
+D. model-based clustering
+
+Three: Regression problem:
+##The classification method outputs discrete labels; the regression method outputs continuous labels.
+(The goal is that the loss of all data points to the line is minimal)
+Can be segmented based on regression methods (e.g. above and below house prices)
+
+Four: Related issues
+## Unsupervised learning. The goal is to discover and exploit correlation patterns hidden in the data.
+##Widely used in product sales, system recommendations, user behavior analysis, etc. Practical knowledge verification is required when applying.
+
+Finally, there are three ways of model integration:
+1. Bagging: input data into multiple models, and then output the results after making the decision (random forest similar method)
+2. Boosting: A serial algorithm that uses the result as a feature to continuously strengthen the learning effect.
+3. Stacking: perform horizontal expansion and traversal enhancement. We must continue to try and optimize our business.
 一：分类问题：
 ##有监督学习。
 首先要有一批已经有标签结果的数据
