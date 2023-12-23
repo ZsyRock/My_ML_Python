@@ -1,3 +1,26 @@
+Neural Networks
+
+One layer of input units and one layer of output units
+Y = X1 + 2X1 + 3X1 +4
+ANN model: basically the same as linear regression model
+
+Input data》Input layer》Hidden layer》Input layer
+
+Algorithm principle:
+1. Preset a network structure and activation function
+2. Initialize the weights in the model
+3. Measure the results based on the input data and weights
+4. The model needs to adjust the weight (adjust according to the error ratio)
+After several cycles, you can stop when the target loss value is reached, or train for a certain number of times.
+
+Add a nonlinear activation function (ReLU, tanh, Sigmod, etc.) between the previous input and the next output
+
+advantage
+The boundaries of the model can be continuously expanded like building blocks, without too much interference in the specific internal operations.
+
+shortcoming
+Neural networks lack interpretability and are complicated internally
+Neural networks are very resource intensive
 神经网络
 
 一层输入单元和一层输出单元
