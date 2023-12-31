@@ -1,4 +1,4 @@
-Principle: Find the K categories closest to the new data, and use the category with the most samples as the category of the new data.
+Principle: Find the K samples that are closest to the new data, and select the category with the most samples as the category of the new data.
 For example, if a family moves into a wealthy area, they think they are rich.
 
 advantage:
@@ -14,7 +14,7 @@ shortcoming:
 The smaller K is, the easier it is to overfit (strongly related to the results), and the larger K is, the easier it is to be judged as underfitting.
 
 The difficulty lies in the value of K.
-原理：找到K个与新数据最近的昂本，去样本中最多的一个类别作为新数据的类别
+原理：找到K个与新数据最近的样本，去样本中最多的一个类别作为新数据的类别
 如富人区搬来一户人家，认为他是有钱人。
 
 优点：
