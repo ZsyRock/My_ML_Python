@@ -10,11 +10,9 @@ The first three modules are the basic part, they are my review notes and code im
 
 [Module 3](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%203.%20Classification%20problem) is a summary of common machine learning algorithms and specific principles and application demonstrations.
 
-[Module 4](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%204.%20Summary%20of%20projects) is a summary of practical problems I solved by applying various machine learning algorithms.
+[Module 4](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%204.%20Summary%20of%20projects) is a summary of practical problems I solved by applying various machine learning algorithms. including data mining basics, time series analysis, disease prediction and other models.
 
 By constantly updating my technical notes, hope I can become a more professional data analyst through this process. 
-
-Starting from the fourth module, I will update some machine learning projects here, including data mining basics, time series analysis, disease prediction and other models.
 
 As an old Chinese saying goes: 
 
