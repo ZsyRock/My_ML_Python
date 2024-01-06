@@ -4,7 +4,7 @@ Welcome to my [Learning Notes of ML](https://github.com/ZsyRock/My_ML_Python/tre
 
 The first three modules are the basic part, they are my review notes and code implementation for data mining and machine learning flowing the [Bilibili site](https://www.bilibili.com/video/BV1JM4y1k7ie/?p=10&spm_id_from=pageDriver&vd_source=f160d57e4bb83c348ab70a6d94d2f079), including:
 
-[Model 1](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%201.%20Data%20mining%20basics) includes problems that data mining can solve, as well as the basic syntax of python.
+[Modele 1](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%201.%20Data%20mining%20basics) includes problems that data mining can solve, as well as the basic syntax of python.
 
 [Module 2](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%202.%20Data%20mining%20workflow) includes the data mining workflow in practical applications and how to choose a model.
 
