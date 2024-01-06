@@ -14,12 +14,11 @@ The first three modules are the basic part, they are my review notes and code im
 
 By constantly updating my technical notes, hope I can become a more professional data analyst through this process. 
 
-As an old Chinese saying goes: 
+In Chinese idioms:: 
 
 ### Review the past and learn the new;
 
-
-There is an old saying: 
+There is another old saying: 
 
 ### A good memory is worse than a bad writing.
  
