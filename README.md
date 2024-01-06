@@ -6,7 +6,7 @@ The first three modules are the basic part, they are my review notes and code im
 
 [Third model](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%203.%20Classification%20problem): problems that data mining can solve, as well as the basic syntax of python
 
-[Third model](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%203.%20Classification%20problem): 
+The [second module](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%202.%20Data%20mining%20workflow) includes the problems that data mining can solve and the selection of models.
 
 [Third model](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%203.%20Classification%20problem) 
 
