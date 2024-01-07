@@ -12,6 +12,10 @@ The first three modules are the basic part, they are my review notes and code im
 
 [Module 4](https://github.com/ZsyRock/My_ML_Python/tree/main/Module%204.%20Summary%20of%20projects) is a summary of practical problems I solved by applying various machine learning algorithms. including data mining basics, time series analysis, disease prediction and other models.
 
+To be specific:
+
+[Project of predict diabetes](https://github.com/ZsyRock/ML-for-Diabetes-Prediction/tree/main/Project%20records)
+
 By constantly updating my technical notes, hope I can become a more professional data analyst through this process. 
 
 In Chinese idioms:: 
