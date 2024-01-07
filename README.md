@@ -16,6 +16,8 @@ To be specific:
 
 [Project of predict diabetes](https://github.com/ZsyRock/ML-for-Diabetes-Prediction/tree/main/Project%20records)
 
+[KNN in ML-sklearn](https://github.com/ZsyRock/ML-for-Diabetes-Prediction/tree/main/KNN%20in%20ML-sklearn)
+
 By constantly updating my technical notes, hope I can become a more professional data analyst through this process. 
 
 In Chinese idioms:: 
